@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+: root {
+  --foreground: 255 255 255;
+  --background: 10 10 10;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  min-height: 100vh;
+}
